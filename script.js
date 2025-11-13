@@ -182,16 +182,14 @@ bttn.forEach(bt=>{
 })
 
 
-//if (localStorage.length>0){ 
-document.body.innerHTML.classList=localStorage.getItem('color')
-//}
+
 const togleButton=document.getElementById('togleButton')
 let isNight=false;
 togleButton.addEventListener('click',()=>{
   isNight=!isNight;
   document.body.classList.toggle('night',isNight)
   togleButton.textContent=isNight?'🌙 ' :' 🔆';
-//localStorage.setItem('color',isNight)
+
 })
 
 

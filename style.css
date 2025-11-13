@@ -1,68 +1,70 @@
-@media screen and (max-width:5000px) {
+
 #allTitle  button{
     
-    width: 200px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
     border: none;
-    border-radius: 40%;
-    color: rgb(0, 0, 0);
-    background-color: rgb(240, 76, 212);
-   /* margin-top: 50px;
-   margin-left: 630px;*/
+    border-radius: 10%;
+    color: rgb(22, 23, 23);
+    background-color:rgb(127, 186, 189); 
+   margin: auto;
 display: flex;
 justify-content: center;
-padding-top: 30px;
+padding-top: 5px;
 
- margin: auto;
- margin-top: 50px;
-  font-size: larger;
-  box-shadow:  2px 2px 1px 1px rgb(155, 29, 117);
+
+ margin-top: 10px;
+  font-size: x-large;
+  box-shadow:  2px 2px 1px 1px rgb(16, 132, 143);
 cursor: pointer;
+
 }
 
   #allTitle  button:hover{
-background-color:rgb(255, 147, 246) ;
-font-size: large;
-  color: rgb(0, 0, 0);
-    width: 200px;
-    height: 80px;
+background-color:rgb(140, 204, 208);
+
+    
  }
+   #allTitle  #btn:hover{
+background-color:rgb(225, 224, 225) ; 
+ }
+
  #main{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(255, 120, 221);
+    
+    background-color: rgb(129, 178, 184);
     color: rgb(7, 7, 7);
     text-align: center;
-    font-size:110px;
-   border-top-left-radius: 60%;
-    border-bottom-right-radius: 50%;
+    font-size:50px;
+   border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 justify-content: center;
 margin: auto;
 margin-top: 150px;
-font-style: italic;
-box-shadow: 5px 4px 1px 2px rgb(225, 228, 228),-5px -4px 1px 2px rgb(225, 228, 228) ;
+font-style: normal;
+box-shadow: 4px 3px 1px 2px rgb(72, 72, 72),-5px -4px 1px 2px rgb(109, 110, 110) ;
 cursor: pointer;
 }
 #main:hover{
-  background-color: rgb(253, 144, 255); 
-   width: 290px;
-     height: 290px;
+  background-color: rgb(130, 174, 188); 
+  box-shadow: 4px 3px 1px 2px rgb(109, 110, 110), -5px -4px 1px 2px  rgb(72, 72, 72);
+
+ 
 }
 body{
  
-    background-color: rgb(255, 181, 239);
+   background-color: rgb(224, 231, 233);
     position: relative;
 
 }
        #zr1{
         color: #f7ebeb;
-    background-color: rgb(255, 6, 193);
+    background-color: rgb(7, 162, 80);
     cursor: pointer;
-    width: 100px;
+    width: 70%;
     height: 30px;
     font-size:20px ;
-    border-radius: 20%;
-padding-top: 2px;
+    border-radius: 10%;
+
 margin: auto;
 text-align: center;
 border: none;
@@ -70,112 +72,98 @@ border: none;
 #textTitle {
   
     border-radius: 30px;
-padding: 1px;
-text-align: center;
- font-size: 20px;
- margin: auto;
- margin-top: -50px;
-padding: 100px;
+    font-size: 20px;
+    text-align: center;
+
 }
 
 #textTitle2{
        border-radius: 30px;
-padding: 1px;
-padding: 100px;
-text-align: center;
+       text-align: center;
  font-size: 20px;
- margin: auto;
- margin-top: -50px; 
 
 }
 #textTitle3{
        border-radius: 30px;
-padding: 1px;
-text-align: center;
+       text-align: center;
  font-size: 20px;
- margin: auto;
- margin-top: -50px; 
-padding: 100px;
+
 }
 #textTitle4{
        border-radius: 30px;
-padding: 1px;
-padding: 100px;
-text-align: center;
+       text-align: center;
  font-size: 20px;
- margin: auto;
- margin-top: -50px; 
-
 }
 #textTitle5{
        border-radius: 30px;
-padding: 1px;
-padding: 100px;
 text-align: center;
  font-size: 20px;
- margin: auto;
- margin-top: -50px; 
 
 }
 #textTitle6{
        border-radius: 30px;
-padding: 1px;
-padding: 100px;
+
 text-align: center;
  font-size: 20px;
- margin: auto;
- margin-top: -50px; 
+
 
 }
 .hide{
     display: none;
 }
-#btn ,#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
-    width: 100px;
-    height: 50px;
-    background-color: rgb(255, 94, 228);
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
+   
+    background-color: rgb(188, 195, 196);
     color: rgb(39, 39, 39);
-    border-radius: 30%;
-     margin-right: 900px;
-   margin-top: 20px;  
-    font-size: large;
+    border-radius: 20%;
+ width: 25%;
+ height: 50%;
+ text-align: center;
+    font-size: x-large;
     cursor: pointer;
    border: none;
+  position: relative;
+top: -20%;
+left: 40%;
 }
 
+
 #zr1:hover{
- background-color:rgb(255, 147, 246) ;
+
+        width: 50%;
         
         color: #121213;
     cursor: pointer;
-    width: 60px;
+
     
 }
 #zr1.finish{
-    color: rgb(199, 199, 199);
-    background-color: rgb(214, 3, 3);
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 10, 10);
 }
 .box{
-    background-color:  rgb(250, 141, 223);
-    border: 0px solid rgb(153, 32, 133);
+    background-color:  rgb(127, 186, 189);
+    border: 0px solid rgb(220, 227, 227);
     border-radius: 10%;
-    margin: auto;
-    margin: 20px;
-    box-shadow: 5px 5px 1px 2px rgb(197, 1, 155) ;
-    padding: 10px;
+     margin: auto;
+    margin: 15px;
+    box-shadow: 5px 5px 1px 2px rgb(44, 105, 124) ;
+  padding: 10px;
 }
 #bttn {
-    background-color:#d83db1;
-    color: aliceblue;
-width: 50px;
-height: 50px;
+    background-color:#c2c9ca;
+   text-align: center;
+font-size:150%;
     border: none;
     border-radius: 50%;
    position: fixed;
-   bottom: 100px;
-   right: 25px;
+
+   bottom: 20%;
+   right: 1%;
+   display: inline-block;
 display: none;
 cursor: pointer;
+
 }
 .box p {
     color: rgb(5, 5, 5);
@@ -183,27 +171,29 @@ cursor: pointer;
     word-spacing: 5px;
 }
   #allTitle  #btn{
-    margin-top: 0px;
-     background-color: rgb(243, 56, 212);
-     width: 100px;
-    height: 50px;
- margin-left: 16px;
-   margin-top: -100px;
-   
- color: rgb(0, 0, 0);
-padding-top: 15px;
+  
+     background-color: rgb(172, 175, 175);
+    color: rgb(39, 39, 39);
+    border-radius: 20%;
+ width: 25%;
+ height: 20%;
+ text-align: center;
+    font-size: x-large;
+    cursor: pointer;
+   border: none;
+  position: relative;
+top: 0%;
+left: 80%;
+
 
   }
-  #allTitle  #btn:hover{
-    font-size: 18px;
-    background-color: #fa57d1;
-  }
+ 
   #titles{
-    background-color: rgb(255, 181, 239);
+    background-color: rgb(217, 216, 216);
     width: 100%;
-    height: 40px;
+  
    text-align: center;
-padding-top: 20px;
+padding-top: 25px;
 font-size: large;
 word-spacing: 8px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -213,87 +203,80 @@ left: 0px;
 
   }
     #togleButton{
-    background-color:rgb(88, 87, 88) ;
-    width: 50px;
-    height: 50px;
   border-radius: 50%;
     text-align: center;
-      position: fixed;
-   bottom: 500px;
-   right: 25px;
+  margin-top: 60px;
  border: none;
    font-size: 30px;
  cursor: pointer;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color:hsl(313, 97%, 60%) ;
-    color: rgb(7, 7, 7);
+  background-color:hsl(180, 1%, 65%) ;
   }
   .night{
-    background-color: rgb(83, 40, 100);
-    color: rgb(194, 194, 194);
+    background-color: rgb(82, 82, 82);
+    color: rgb(251, 253, 253);
 
   }
   .night #togleButton{
-    background-color: rgb(137, 73, 150);
+    background-color: rgb(19, 20, 20);
     color: aliceblue;
     cursor: pointer;
     font-size: 30px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+
   }
    #togleButton:hover{
-    background-color: rgb(255, 120, 221);
+    background-color: rgb(157, 161, 162);
   }
     .night #togleButton:hover{
-    background-color: #65118b;
+    background-color: #0f0f0f;
   }
   .night #main{
-    background-color: rgb(145, 29, 145);
-    color: rgb(14, 11, 11);
+    background-color: rgb(9, 9, 9);
+    color: rgb(255, 255, 255);
   }
   .night #titles{
-    background-color:   rgb(83, 40, 100);  
-    color: rgb(212, 212, 212);
+    background-color:   rgb(9, 9, 9);  
+    color: rgb(255, 255, 255);
   }
   .night #allTitle button{
-    background-color: rgb(124, 68, 141);
-      box-shadow:  2px 2px 1px 1px rgb(99, 13, 110);
-      color: #dbdbdb;
+    background-color: rgb(75, 75, 75);
+      box-shadow:  2px 2px 1px 1px rgb(8, 3, 8);
+      color: #ffffff;
   }
   .night #allTitle #btn{
-    background-color:   rgb(124, 68, 141);
-    color: #dbdbdb;
+    background-color:   rgb(0, 0, 0);
+    color: #ffffff;
   }
   .night #bttn{
-    background-color: #9600aa
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
   }
   
   .night  .azkar2,.azkar1,.azkar3{
 color: rgb(212, 212, 212);
   }
   .night .box{
-    background-color:rgb(61, 29, 73);
-      box-shadow: 5px 5px 1px 2px rgb(45, 24, 53); ;
+    background-color:rgb(64, 61, 64);
+      box-shadow: 5px 5px 1px 2px rgb(0, 0, 0); ;
     
   }
   .night .box p{
     color: #dbdbdb;
   }
   .night #zr1{
-    background-color: #9600aa;
+    background-color: rgb(7, 162, 80) ;
   }
   .night #zr1.finish{
     color:rgb(212, 212, 212);
     background-color: rgb(214, 3, 3);
 }
 .night   #allTitle  #btn:hover{
-    font-size: 18px;
-    background-color: #960aa3;
+   
+    background-color: #222122;
   }
 
   .night #btn1{
-    background-color: #8b1d8b;
-    color: #dbdbdb;
+    background-color: #000000;
+    color: #ffffff;
   }
      .azkar2,.azkar1,.azkar,.azkar3,.azkar6{
 color: rgb(17, 17, 17);
@@ -308,53 +291,55 @@ color: rgb(212, 212, 212);
 color: rgb(212, 212, 212);
   }
   #btn2{
-    background-color: #ff65d8;
+    background-color: rgb(172, 175, 175);
     color: #121213;
   }
   .night #btn2{
-    background-color: #8b1d8b;
+    background-color: #000000;
     color: aliceblue;
   }
    #btn3{
-    background-color: #ff65d8;
+    background-color: rgb(172, 175, 175);
     color: #121213;
   }
   .night #btn3{
-    background-color: #8b1d8b;
+    background-color: #000000;
     color: aliceblue;
   }
   #btn4{
-    background-color: #ff65d8;
+    background-color: rgb(172, 175, 175);
     color: #121213;
   }
   .night #btn4{
-    background-color: #8b1d8b;
+    background-color: #000000;
     color: aliceblue;
   }
    #btn5{
-    background-color: #ff65d8;
+    background-color: rgb(172, 175, 175);
     color: #121213;
   }
   .night #btn5{
-    background-color: #8b1d8b;
+    background-color: #000000;
     color: aliceblue;
   }
      #btn6{
-    background-color: #ff65d8;
+    background-color: rgb(172, 175, 175);
     color: #121213;
   }
   .night #btn6{
-    background-color: #8b1d8b;
+    background-color: #000000;
     color: aliceblue;
   }
    .night #allTitle button:hover{
-    background-color: #672470;
+    background-color: #393939;
    }
    #allTitle #sban{
-    margin-top: 100px;
+    margin-top: 50px;
   }
      #allTitle #masaaa{
-    margin-top: 100px;
+    margin-top: 10px;
   }
-  }
- 
+  
+ #allTitle #noomAfter{
+  font-size: large;
+ }
